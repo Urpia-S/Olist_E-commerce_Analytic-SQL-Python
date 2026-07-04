@@ -21,9 +21,9 @@ Execute primeiro o notebook `01`, que prepara a base SQLite usada pelos demais n
 
 Os CSVs brutos da Olist nao ficam versionados no repositorio, porque sao arquivos grandes.
 
-Para que os notebooks funcionem para qualquer pessoa que abrir pelo GitHub, publiquei uma Release chamada `data-v1` neste repositorio:
+Para que os notebooks funcionem para qualquer pessoa que abrir pelo GitHub, a Release `data-v1` deste repositorio concentra os arquivos de dados:
 
-[Release data-v1](https://github.com/Urpia-S/Portfolio_/releases/tag/data-v1)
+[Release data-v1](https://github.com/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/releases/tag/data-v1)
 
 Assets esperados:
 
@@ -33,13 +33,13 @@ Assets esperados:
 O notebook `01_preparacao_base_colab.ipynb` tenta baixar automaticamente:
 
 ``` text
-https://github.com/Urpia-S/Portfolio_/releases/download/data-v1/olist_csv_raw.zip
+https://github.com/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/releases/download/data-v1/olist_csv_raw.zip
 ```
 
 Os notebooks `02` a `06` tentam baixar automaticamente o banco pronto, caso ele nao exista:
 
 ``` text
-https://github.com/Urpia-S/Portfolio_/releases/download/data-v1/olist_colab.sqlite.zip
+https://github.com/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/releases/download/data-v1/olist_colab.sqlite.zip
 ```
 
 Com a Release `data-v1` publicada, os notebooks baixam os arquivos automaticamente.
@@ -47,17 +47,17 @@ Com a Release `data-v1` publicada, os notebooks baixam os arquivos automaticamen
 ## Estrutura
 
 ``` text
-projeto SQL/
+Olist_E-commerce_Analytic-SQL-Python/
 +-- notebooks/   versao principal do projeto em Google Colab
 +-- docs/        explicacoes tecnicas e resumo de resultados
-+-- outputs/     CSVs de resultados gerados
-+-- sql/         versao alternativa em PostgreSQL
-+-- data/        instrucao para organizar dados brutos localmente
++-- outputs/     CSVs de resultados versionados
 ```
+
+Ao executar os notebooks no Colab, os novos CSVs sao gravados em `outputs_colab/`.
 
 ## O que o projeto cobre
 
--   Carga dos CSVs locais.
+-   Download e carga dos CSVs da Olist.
 -   Modelagem em camadas `stg_*`, `core_*` e `vw_*`.
 -   Analise temporal de pedidos.
 -   Receita, frete, estados e categorias.
@@ -66,9 +66,3 @@ projeto SQL/
 -   Retencao e recompra.
 -   Afinidade entre categorias.
 -   Desempenho de vendedores.
-
-## Versao PostgreSQL
-
-A pasta `sql/` mantem uma versao reprodutivel em PostgreSQL, com scripts numerados. Ela e util para demonstrar modelagem relacional mais proxima de um ambiente de banco de dados real.
-
-A versao principal para leitura e execucao no GitHub/Colab, entretanto, e a pasta `notebooks/`.
