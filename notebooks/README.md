@@ -18,13 +18,15 @@ Versao principal do projeto, pensada para ser aberta a partir do GitHub e execut
 O notebook `01` tenta baixar automaticamente os CSVs de:
 
 ``` text
-https://github.com/Urpia-S/Portfolio_/releases/download/data-v1/olist_csv_raw.zip
+https://github.com/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/releases/download/data-v1/olist_csv_raw.zip
 ```
 
 Os notebooks `02` a `06` tentam baixar automaticamente o banco pronto de:
 
 ``` text
-https://github.com/Urpia-S/Portfolio_/releases/download/data-v1/olist_colab.sqlite.zip
+https://github.com/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/releases/download/data-v1/olist_colab.sqlite.zip
 ```
 
 Com esses assets publicados na Release `data-v1`, os notebooks baixam os arquivos automaticamente.
+
+As consultas que exportam resultados salvam novos CSVs em `outputs_colab/` durante a execucao no Colab.
