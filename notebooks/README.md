@@ -4,14 +4,14 @@ Versao principal do projeto, pensada para ser aberta a partir do GitHub e execut
 
 ## Ordem recomendada
 
-| Ordem | Notebook | Conteudo |
-|--------------------:|------------------|------------------|
-| 1 | `01_preparacao_base_colab.ipynb` | Upload/download dos CSVs, carga em SQLite, staging, core e views. |
-| 2 | `02_temporal_receita_colab.ipynb` | Pedidos por tempo, receita, frete, estados e categorias. |
-| 3 | `03_entregas_satisfacao_colab.ipynb` | Prazos, atrasos, reviews e impacto da entrega na satisfacao. |
-| 4 | `04_rfm_retencao_colab.ipynb` | Segmentacao RFM, recompra e coortes de retencao. |
-| 5 | `05_afinidade_vendedores_colab.ipynb` | Categorias compradas juntas, vendedores e resumo executivo. |
-| 6 | `06_playground_consultas_sql_colab.ipynb` | Area livre para testar novas consultas SQL. |
+| Ordem | Notebook | Conteudo | Abrir no Colab |
+|------:|----------|----------|----------------|
+| 1 | `01_preparacao_base_colab.ipynb` | Upload/download dos CSVs, carga em SQLite, staging, core e views. | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/blob/main/notebooks/01_preparacao_base_colab.ipynb) |
+| 2 | `02_temporal_receita_colab.ipynb` | Pedidos por tempo, receita, frete, estados e categorias. | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/blob/main/notebooks/02_temporal_receita_colab.ipynb) |
+| 3 | `03_entregas_satisfacao_colab.ipynb` | Prazos, atrasos, reviews e impacto da entrega na satisfacao. | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/blob/main/notebooks/03_entregas_satisfacao_colab.ipynb) |
+| 4 | `04_rfm_retencao_colab.ipynb` | Segmentacao RFM, recompra e coortes de retencao. | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/blob/main/notebooks/04_rfm_retencao_colab.ipynb) |
+| 5 | `05_afinidade_vendedores_colab.ipynb` | Categorias compradas juntas, vendedores e resumo executivo. | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/blob/main/notebooks/05_afinidade_vendedores_colab.ipynb) |
+| 6 | `06_playground_consultas_sql_colab.ipynb` | Area livre para testar novas consultas SQL. | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Urpia-S/Olist_E-commerce_Analytic-SQL-Python/blob/main/notebooks/06_playground_consultas_sql_colab.ipynb) |
 
 ## Dados
 
